@@ -1,0 +1,154 @@
+
+/*header*/
+.jumbotron {
+  background-color: skyBlue;
+  text-align: center;
+  display: none;
+  font-size: 2em;
+}
+
+.hardMode {
+  background-color:red;
+}
+
+.mediumMode {
+  background-color:yellow;
+}
+
+.message {
+  font-size:3em;
+}
+
+.button {
+  background-color:gainsboro;
+}
+.button:hover {
+  background-color:lavender;
+}
+
+/*content*/
+.container {
+  height:550px;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.box {
+  max-width:550px;
+  margin:30px auto;
+}
+
+.row-content {
+  margin:-10px auto;
+}
+
+.sq {
+  max-width: 190px;
+  height: 190px;
+  background-color:white;
+  margin:-3px;
+  text-align:center;
+  font-size: 8em;
+  cursor:pointer;
+}
+
+.sqHoverOne:hover {
+  background-color:lightgreen;
+}
+
+.sqHoverTwo:hover {
+  background-color:skyBlue;
+}
+
+.sqMediumMode:hover {
+  background-color:yellow;
+}
+
+.sqHardMode:hover {
+  background-color:red;
+}
+
+.pTwo {
+  background-color:lightgreen;
+}
+
+.used {
+  background-color:white !important;
+  cursor:default;
+}
+
+.opBtnBox {
+  text-align:center;
+  padding-right:16px;
+}
+
+.opBtn {
+  width:40%;
+  font-size:1.5em;
+}
+.opBtn:hover {
+  background-color:grey;
+}
+
+/*footer*/
+#credit {
+  float:right;
+  margin-right:15px;
+  margin-top:10px;
+}
+
+/*Options Modal*/
+.modal-header {
+  text-align:center;
+}
+
+.modal-content {
+  height:300px;
+  text-align:center;
+}
+
+.modal-box {
+  width:70%;
+  margin:0px auto;
+}
+
+.row-modal {
+  text-align:left;
+}
+
+.optionLabel {
+  font-size:1.5em;  
+}
+
+.difficultyOptionLabel {
+  opacity: 1;
+}
+
+
+/*GRID DESIGN*/
+.top {
+	border-bottom: 10px solid grey;
+}
+
+.bottom {
+	border-top: 10px solid grey;
+}
+
+.middle {
+  border-bottom: 10px solid grey;
+  border-top: 10px solid grey;
+}
+
+.left {
+  border-right: 10px solid grey;
+}
+
+.right {
+  border-left: 10px solid grey;
+}
+
+.center {
+  border-right: 10px solid grey;
+  border-left: 10px solid grey;
+}
+
